@@ -18,7 +18,7 @@ if(!$_SESSION['email'])
 </head>  
   
 <body>  
-<h1>Welcome</h1><br>  
+<h1>hello</h1><br>  
 <?php  
 echo $_SESSION['email'];  
 ?>  

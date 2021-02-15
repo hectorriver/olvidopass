@@ -64,7 +64,7 @@ if(isset($_POST['signupSubmit'])){
             $sessData['userLoggedIn'] = TRUE;
             $sessData['userID'] = $userData['id'];
             $sessData['status']['type'] = 'success';
-            $sessData['status']['msg'] = 'Bienvenid@ '.$userData['first_name'].'!';
+            $sessData['status']['msg'] = 'Bienvenid '.$userData['first_name'].'!';
         }else{
             $sessData['status']['type'] = 'error';
             $sessData['status']['msg'] = 'Correo electrónico o contraseña incorrectos, intente nuevamente.'; 
